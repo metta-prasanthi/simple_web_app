@@ -3,7 +3,7 @@
 set -e 
 
 APP_NAME=${OUT_FILE_NAME:-app}
-APP_DIR="${1:-.}"
+APP_DIR="${1:-./webapp}"
 
 export CGO_ENABLED=0 
 export GOOS=linux 

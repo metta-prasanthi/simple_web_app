@@ -21,7 +21,7 @@
 
 # GLOBAL ARG values
 # @see https://github.com/moby/moby/issues/37345
-ARG PROJECT_PATH="github.com/metta-prasanthi/My_Go_Calculator"
+ARG PROJECT_PATH="github.com/metta-prasanthi/simple_web_app"
 ARG OUT_FILE_NAME=app
 
 # @see https://hub.docker.com/_/golang
