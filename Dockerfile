@@ -32,7 +32,7 @@ ARG OUT_FILE_NAME
 ENV OUT_FILE_NAME=${OUT_FILE_NAME}
 WORKDIR /go/src/${PROJECT_PATH}/
 COPY . .
-RUN ./scripts/build.sh .
+RUN ./scripts/build.sh ./webapp
 
 FROM alpine:latest
 ARG PROJECT_PATH
